@@ -8,7 +8,7 @@ SCREEN_HEIGHT = 600
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 pygame.display.set_caption("Игра - ТИР")
-icon = pygame.image.load("img/icon_png")
+icon = pygame.image.load("main/img/иконка.png")
 pygame.display.set_icon(icon)
 
 target_img = pygame.image.load("img/target.png")
